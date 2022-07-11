@@ -1,0 +1,47 @@
+body{
+  background-color: #f1f5f8;
+}
+.container{
+  width: 90%;
+  height: 100vh;
+  margin: auto;
+}
+
+.form{
+  display:grid;
+  align-items: center;
+  grid-template-columns: 1fr auto;
+  grid-gap: 0.5rem;
+  background-color: white;
+  padding: 1rem;
+  margin-bottom: 2rem;
+}
+
+.section{
+  display: grid;
+  grid-template-columns: 60% 40%;
+  height: 70%;
+  align-items: center;
+  gap: 1rem;
+}                                              
+
+.search-bar{
+  padding: 0.6rem;
+}
+
+.btn{
+ background-color: #2caeba;
+ color: white;
+ padding: 0.4rem 1rem;
+ font-size: 1.2rem;
+ border-radius: 10%;
+}
+
+.style-canvas{
+  background-color: white;
+}
+
+.btn:hover{
+  background-color: #88EBF2;
+  color: black;
+};
